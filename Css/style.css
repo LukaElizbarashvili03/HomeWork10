@@ -1,7 +1,7 @@
 .Container{
     width:min(100%, 1440px);
     margin: auto;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     padding-top: 96px;
     /*if i inspect header it show that the height is 96px, but when i write padding top 96 it still leaves some space between header and section,whe*/
 }
