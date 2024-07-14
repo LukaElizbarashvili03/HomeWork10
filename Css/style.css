@@ -1,0 +1,192 @@
+.Container{
+    width:min(100%, 1440px);
+    margin: auto;
+    border: 5px solid red;
+    padding-top: 96px;
+    /*if i inspect header it show that the height is 96px, but when i write padding top 96 it still leaves some space between header and section,whe*/
+}
+header{
+    width: inherit;
+    max-width: inherit;
+    background-color: #E3DAD8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 150px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.HeaderLogo{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.44023728370666504px;
+    color: #000000;
+}
+.HeaderUl{
+    display: flex;
+    gap: 36px;
+}
+.HeaderText{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.44023728370666504px;
+    color: #000000;
+}
+.HeaderButton{
+    background-color: #524A44;
+    height: 48px;
+    width: 100px;
+    border-radius: 32px;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: -0.44023728370666504px;
+    color: #FFFFFF;
+}
+/* .BurgerContainer{
+    background-color: #524A44;
+    border-radius: 32px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   display: none;
+} */
+
+.fa-bars{
+    width: 48px;
+    height: 48px;
+    border-radius: 32px;
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #524A44;  
+}
+/* First Section */
+.SectionOne{
+    height: 640px;
+    background-image: url("../Images/cover\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding-inline: calc(560 /1440 * 100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SectionOne_Button{
+    border: 2px solid #F5F5F5;
+    background-color: #524A44;
+    width: 320px;
+    height: 80px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.10000000149011612px;
+    color: #FFFFFF;
+}
+/* Second Section */
+.SectionTwo{
+    width: calc(1140 / 1440 * 100%);
+    margin: 80px auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 36px;
+    /* background-color: aqua; */
+}
+.SecondSection_Article{
+    width: 100%;
+    flex-grow: 1;
+    background-color: #E3DAD8;
+}
+.ArticleName{
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.dot{
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color:#000000 ;
+}
+.ArticleTitle{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000000;
+    /* background-color: aqua; */
+}
+.ArticleText{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #000000;
+}
+/* Footer */
+footer{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding: 96px 150px;
+}
+.FooterLogo{
+    font-family: Inter;
+    font-size: 24.65px;
+    font-weight: 900;
+    line-height: 26.41px;
+    letter-spacing: -0.44023728370666504px;
+    color: #FFFFFF;
+}
+
+.FooterSection{
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+}
+.FooterTitle{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    color: #FFFFFF;
+    /* text-align: center; */
+    margin-bottom: 16px;
+}
+.FooterUl{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    row-gap: 8px;
+}
+.FooterText{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,33 @@
+/* 480px-320px */
+@media (max-width: 481px){
+    /* Header */
+    header{
+        padding-inline: 8px;
+    }
+    /* Section One */
+    .SectionOne{
+        height: 320px;
+    }
+    .SectionOne_Button{
+        width: 180px;
+        height: 60px;
+        font-size: 16px;
+    }
+    /* Second Section */
+    .SectionTwo{
+        width: calc(464 / 480 * 100%);
+    }
+
+    /* Footer */
+    footer{
+        /* padding-inline: 187px; */
+    }
+    .FooterSection{
+        width: 107px;
+        /* width: calc(107 / 480 * 100%); */
+        flex-direction: column;
+        row-gap: 32px;
+        align-items: center;
+    }
+
+}
